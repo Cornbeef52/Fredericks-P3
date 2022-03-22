@@ -20,6 +20,10 @@
 // FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THE JSON FILE LIST
 */
 
+var title = "IMDB + Thomas's Top 8 Movies";
+var owner = "Thomas";
+var github = "https://github.com/Cornbeef52/Fredericks-P3.git"
+
 
 const vue_app = Vue.createApp({
       // This automatically imports your movies.json file and puts it into

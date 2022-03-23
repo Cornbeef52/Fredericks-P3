@@ -20,9 +20,9 @@
 // FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THE JSON FILE LIST
 */
 
-var title = "IMDB + Thomas's Top 8 Movies";
-var owner = "Thomas";
-var github = "https://github.com/Cornbeef52/Fredericks-P3.git"
+
+
+
 
 
 const vue_app = Vue.createApp({
@@ -37,7 +37,9 @@ const vue_app = Vue.createApp({
         return {
             // This holds your movies.json data.
             movies: [],
-            /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            title: "IMDB + Thomas's Top 8 Movies",
+            owner: "Thomas",
+            github: "https://github.com/Cornbeef52/Fredericks-P3.git",
       }
     },
       methods: {
